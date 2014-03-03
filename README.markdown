@@ -13,4 +13,3 @@ Drop the file into `/usr/share/X11/xkb/symbols` (or the equivalent in your distr
 ## Windows installation
 
 Use the Microsoft Keyboard Layout Creator to compile the klc file or [download the compiled package](http://goo.gl/h7jTOJ).
-
