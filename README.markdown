@@ -19,3 +19,5 @@ Use the Microsoft Keyboard Layout Creator to compile the klc file or [download t
 TODO: reloading w/o root could maybe be done (I have't tried this yet):
 > setxkbmap -device $remote_id -print|sed 's/\(xkb_symbols.*\)"/\1+custom([layout])"/' | xkbcomp -I[path] -i $remote_id -synch - $DISPLAY 2>/dev/null    
 >#remote_id on muuttuja, jossa on se näppäimistön id jolle ton haluaa applyttää [ainakin toimii tolla skriptillä joka mul on; path alla on hakemisto symbols, jossa on layoutkuvauksia
+> eli remote_id on haettu xinput list avulla
+> thx eax255
